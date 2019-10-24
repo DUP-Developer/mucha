@@ -1,0 +1,83 @@
+{
+  "success": {
+    "create": "Navigation map created successfully",
+    "delete": "Navigation map deleted successfully",
+    "edit": "Navigation map edited successfully"
+  },
+  "modal": {
+    "confirm": "Removing this screen will also delete any other dependent on it. Do you wish to continue?",
+    "newScreen": {
+      "title": "Screen Wizard"
+    },
+    "editScreen": {
+      "title": "Screen editing"
+    },
+    "editItemToScreen": {
+      "title": "Evaluation Items"
+    }
+  },
+  "form": {
+    "title": "Screen management",
+    "fields": {
+      "parent": {
+        "label": "Top Screen",
+        "rules": {
+          "required": "Select a Top Screen"
+        }
+      },
+      "label": {
+        "label": "Current Screen",
+        "rules": {
+          "required": "Enter a name for the screen",
+          "max": "Maximum length of 40 characters allowed"
+        }
+      },
+      "description": {
+        "label": "Description",
+        "rules": {
+          "pattern": "Please provide a description for the screen",
+          "max": "Maximum 500 character maximum allowed"
+        }
+      }
+    },
+    "upload": {
+      "label": "attach image",
+      "rules": {
+        "imageSize": "Image larger than 4MB",
+        "invalidFormat": "Invalid formatted image"
+      }
+    }
+  },
+  "popover": {
+    "title": "Actions",
+    "actions": {
+      "newScreen": "New Screen",
+      "editScreen": "Edit Screen",
+      "removeScreen": "Remove Screen"
+    }
+  },
+  "import": {
+    "success": "File imported successfully",
+    "error": "File Invalid"
+  },
+  "error": {
+    "screen": {
+      "invalidScreen": "Navigation map has some invalid screen",
+      "invalidParent": "Navigation map has some screen with invalid parent"
+    }
+  },
+  "alert": "There are unsaved changes. Do you really want to quit?",
+  "screenItems": {
+    "empty": "No items associated with this screen",
+    "title": "Rated Items"
+  },
+  "transfer": {
+    "title": "Item Management",
+    "left": "Available Items",
+    "right": "Items to be evaluated"
+  },
+  "tooltip": {
+    "add": "Add new child screen",
+    "noItems": "Screen without evaluation items"
+  }
+}

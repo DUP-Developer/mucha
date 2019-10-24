@@ -1,0 +1,14 @@
+{
+  "title": "Início",
+  "card": {
+    "report": {
+      "title": "Últimos relatórios"
+    },
+    "device": {
+      "title": "Últimos dispositivos"
+    },
+    "user": {
+      "title": "Últimos usuários"
+    }
+  }
+}

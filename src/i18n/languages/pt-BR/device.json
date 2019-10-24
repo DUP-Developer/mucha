@@ -1,0 +1,87 @@
+{
+  "title": "Dispositivos",
+  "table": {
+    "columns": {
+      "name": "Nome",
+      "description": "Descrição"
+    }
+  },
+  "card": {
+    "register": {
+      "title": "Dados Gerais",
+      "form": {
+        "fields": {
+          "name": {
+            "label": "Nome",
+            "rules": {
+              "required": "Informe um nome",
+              "max": "O tamanho máximo permitido são 50 caracteres",
+              "patternWhiteSpace": "Nome inválido",
+              "patternInvalidCharacter": "Seu nome deve conter apenas letras e números."
+            }
+          },
+          "description": {
+            "label": "Descrição",
+            "rules": {
+              "required": "Informe uma descrição",
+              "max": "O tamanho máximo permitido são 500 caracteres",
+              "pattern": "Descrição inválida"
+            }
+          }
+        }
+      }
+    },
+    "mapNavigation": {
+      "title": "Mapa de Navegação",
+      "modal": {
+        "generateTree": {
+          "title": "Assistente para criação de telas"
+        }
+      }
+    }
+  },
+  "success": {
+    "create": "Dispositivo criado com sucesso",
+    "edit": "Dispositivo ativado com sucesso",
+    "delete": "Dispositivo inativo com sucesso",
+    "list": "Dispositivo listado com sucesso"
+  },
+  "errors": {
+    "deviceExist": "Dispositivo já existe",
+    "nameInvalid": "Dispositivo com nome inválido",
+    "noMap": "Não há mapa de navegação vinculado para este dispositivo. Crie um ou importe.",
+    "deviceNameExist": "Esse nome de dispositivo já existe"
+  },
+  "modal": {
+    "edit": {
+      "title": "Editar Tela",
+      "form": {
+        "fields": {
+          "parentScreen": {
+            "label": "Tela Superior",
+            "rules": {
+              "required": "Selecione uma Tela Superior"
+            }
+          },
+          "selectedScreen": {
+            "label": "Tela Atual",
+            "rules": {
+              "required": "Informe um nome para a tela",
+              "max": "Tamanho máximo permitido de 100 caracteres"
+            }
+          },
+          "description": {
+            "label": "Descrição"
+          }
+        }
+      }
+    },
+    "confirm": {
+      "inactive": "Tem certeza que deseja inativar o dispositivo?",
+      "active": "Tem certeza que deseja ativar o dispositivo?"
+    }
+  },
+  "data": {
+    "total": "Total de dispositivos cadastrados"
+  }
+}

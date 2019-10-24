@@ -1,0 +1,83 @@
+{
+  "success": {
+    "create": "Mapa de navegação criado com sucesso",
+    "delete": "Mapa de navegação removido com sucesso",
+    "edit": "Mapa de navegação editado com sucesso"
+  },
+  "modal": {
+    "confirm": "Ao remover esta tela, as demais dependentes da mesma também serão excluídas. Deseja continuar?",
+    "newScreen": {
+      "title": "Assistente de telas"
+    },
+    "editScreen": {
+      "title": "Edição de tela"
+    },
+    "editItemToScreen": {
+      "title": "Itens de avaliação"
+    }
+  },
+  "form": {
+    "title": "Gerenciamento de telas",
+    "fields": {
+      "parent": {
+        "label": "Tela Superior",
+        "rules": {
+          "required": "Selecione uma Tela Superior"
+        }
+      },
+      "label": {
+        "label": "Tela Atual",
+        "rules": {
+          "required": "Informe um nome para a tela",
+          "max": "Tamanho máximo permitido de 40 caracteres"
+        }
+      },
+      "description": {
+        "label": "Descrição",
+        "rules": {
+          "pattern": "Informe uma descrição para a tela",
+          "max": "Tamanho máximo permitido de 500 caracteres"
+        }
+      }
+    },
+    "upload": {
+      "label": "Anexar imagem",
+      "rules": {
+        "imageSize": "Imagem com tamanho maior que 4MB",
+        "invalidFormat": "Imagem com formato inválido"
+      }
+    }
+  },
+  "popover": {
+    "title": "Ações",
+    "actions": {
+      "newScreen": "Nova tela",
+      "editScreen": "Editar tela",
+      "removeScreen": "Remover tela"
+    }
+  },
+  "import": {
+    "success": "Arquivo importado com sucesso",
+    "error": "Arquivo inválido"
+  },
+  "error": {
+    "screen": {
+      "invalidScreen": "Existem telas inválidas para o Mapa de Navegação",
+      "invalidParent": "Existem telas com tela pai inválido para o Mapa de Navegação"
+    }
+  },
+  "alert": "Existem alterações não salvas. Deseja mesmo sair?",
+  "screenItems": {
+    "empty": "Nenhum item associado a esta tela",
+    "title": "Itens avaliados"
+  },
+  "transfer": {
+    "title": "Gerenciamento de itens",
+    "left": "Itens disponíveis",
+    "right": "Itens a serem avaliados"
+  },
+  "tooltip": {
+    "add": "Adicionar nova tela filha",
+    "noItems": "Tela sem itens de avaliação"
+  }
+}

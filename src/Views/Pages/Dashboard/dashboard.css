@@ -1,0 +1,48 @@
+.box-button-edit-dashboard button{
+    color: #F3AE62;
+    margin-right: 10px;
+    border-color: #F3AE62;
+}
+
+.box-button-user-active-dashboard button{
+    color: #228B22;
+    margin-right: 10px;
+    border-color: #228B22;
+}
+
+.box-button-user-deactivated-dashboard button{
+    color: #f5222d;
+    margin-right: 10px;
+    border-color: #f5222d;
+}
+
+.box-button-edit-dashboard, .box-button-user-active-dashboard, .box-button-user-deactivated-dashboard {
+    display: inline-flex;
+}
+
+.box-button-edit-dashboard .ant-btn:hover, .box-button-edit-dashboard .ant-btn:focus {
+    background-color: #F3AE62;
+    color: #FFF !important;
+    border-color: #F3AE62;
+}
+
+.box-button-edit-dashboard .ant-btn:focus {
+    color: #F3AE62 !important;
+}
+
+.box-button-user-active-dashboard .ant-btn:hover, .box-button-user-active-dashboard .ant-btn:focus {
+    background-color: #228B22;
+    color: #FFF !important;
+    border-color: #228B22;
+}
+
+.box-button-user-deactivated-dashboard .ant-btn:hover, .box-button-user-deactivated-dashboard .ant-btn:focus {
+    background-color: #f5222d;
+    color: #FFF !important;
+    border-color: #f5222d;
+}
+
+.box-button-edit-dashboard .ant-btn:focus {
+    background-color: transparent;
+    color: #228B22;
+}

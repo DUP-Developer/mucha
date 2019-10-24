@@ -1,0 +1,77 @@
+{
+  "title": "Itens de avaliação",
+  "metric": {
+    "status": {
+      "yes": "Sim",
+      "no": "Não",
+      "noApply": "Não se Aplica",
+      "empty": "Não avaliado"
+    }
+  },
+  "tab": {
+    "title": "Métricas",
+    "empty": "Não há métricas cadastradas.",
+    "form": {
+      "fields": {
+        "metrics": {
+          "placeholder": "Digite sua métrica",
+          "rules": {
+            "required": "Informe uma métrica",
+            "max": "O tamanho máximo permitido são 200 caracteres"
+          }
+        }
+      }
+    },
+    "messages": {
+      "field_removed": "Campo removido."
+    }
+  },
+  "modal": {
+    "title": {
+      "add": "Adicionar Item de Avaliação",
+      "edit": "Editar Item de Avaliação"
+    },
+    "form": {
+      "fields": {
+        "name": {
+          "label": "Nome",
+          "rules": {
+            "required": "Informe um nome",
+            "max": "O tamanho máximo permitido são 100 caracteres",
+            "namePatern": "O nome do item deve conter apenas letras ou números"
+          }
+        },
+        "description": {
+          "label": "Descrição",
+          "rules": {
+            "required": "Informe uma descrição",
+            "max": "O tamanho máximo permitido são 500 caracteres"
+          }
+        }
+      }
+    },
+    "confirm": {
+      "popConfirm": "Tem certeza que deseja remover esta métrica?",
+      "inactive": "Tem certeza que deseja inativar este item?",
+      "active": "Tem certeza que deseja habilitar este item?"
+    }
+  },
+  "success": {
+    "create": "Item criado com sucesso",
+    "createMetrics": "Suas alterações foram salvas",
+    "edit": "Item editado com sucesso",
+    "delete": "Item desabilitado com sucesso",
+    "list": "Item listado com sucesso",
+    "deleteMetric": "Métrica Removida com sucesso.",
+    "enable": "Item habilitado com sucesso"
+  },
+  "error": {
+    "nameRequired": "O nome do item é requirido",
+    "nameAlreadyExists": "O nome do item já existe",
+    "duplicatedMetrics": "Métricas duplicadas não podem ser adicionadas"
+  },
+  "tooltip": {
+    "enable": "Clique para habilitar este item de avaliação",
+    "disable": "Clique para desabilitar este item de avaliação"
+  }
+}

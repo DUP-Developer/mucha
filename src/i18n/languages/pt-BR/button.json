@@ -1,0 +1,22 @@
+{
+  "register": "Adicionar",
+  "search": {
+    "placeholder": "Buscar ..."
+  },
+  "cancel": "Cancelar",
+  "save": "Salvar",
+  "update": "Atualizar",
+  "yes": "Sim",
+  "no": "Não",
+  "import": "Importar",
+  "generateNew": "Gerar novo",
+  "export": "Exportar",
+  "login": "Entrar",
+  "tooltip": {
+    "disable":"Inativar",
+    "enable":"Ativar",
+    "edit": "Editar",
+    "view": "Visualizar"
+  },
+  "resetPassword": "Resetar senha"
+}

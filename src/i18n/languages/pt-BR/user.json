@@ -1,0 +1,108 @@
+{
+  "title": "Usuários",
+  "labels": {
+    "dataPerson": "Dados Pessoais",
+    "alterPassword": "Alterar senha"
+  },
+  "table": {
+    "columns": {
+      "name": "Nome",
+      "email": "E-mail",
+      "phone": "Telefone",
+      "action": "Ações",
+      "userType": "Perfis",
+      "passwordNew": "Senha Nova",
+      "passwordOld": "Senha antiga",
+      "passwordRepeat": "Repita a senha"
+    }
+  },
+  "modal": {
+    "title": "Usuário",
+    "form": {
+      "fields": {
+        "name": {
+          "label": "Nome",
+          "rules": {
+            "required": "Informe um nome",
+            "max": "O tamanho máximo permitido são 50 caracteres",
+            "min": "O campo deve conter apenas letras e o mínimo permitido são 3 caracteres.",
+            "patternWhiteSpace": "Nome inválido",
+            "patternInvalidCharacter": "Seu nome deve conter apenas letras."
+          }
+        },
+        "email": {
+          "label": "E-mail",
+          "rules": {
+            "required": "Informe um e-mail",
+            "min": "O tamanho mínimo permitido são 3 caracteres",
+            "max": "O tamanho máximo permitido são 50 caracteres",
+            "pattern": "E-mail inválido"
+          }
+        },
+        "phone": {
+          "label": "Telefone",
+          "rules": {
+            "required": "Informe um telefone",
+            "pattern": "Telefone inválido"
+          }
+        },
+        "profile": {
+          "label": "Perfil",
+          "rules": {
+            "required": "Informe um perfil"
+          }
+        },
+        "password": {
+          "rules": {
+            "required": "Preencha com uma nova senha",
+            "max": "O tamanho máximo permitido são 20 caracteres",
+            "min": "O tamanho minimo permitido são 7 caracteres",
+            "noEquals": "As senhas não são iguais"
+          },
+          "placeholder": "Deixe esse campo vazio caso não queira alterar sua senha."
+        }
+      }
+    },
+    "confirm": {
+      "inactive": "Tem certeza que deseja inativar o usuário?",
+      "active": "Tem certeza que deseja ativar o usuário?"
+    }
+  },
+  "data": {
+    "profiles": {
+      "admin": "Admin",
+      "engineer": "Engenheiro"
+    },
+    "total": "Total de usuários"
+  },
+  "success": {
+    "create": "Usuário criado com sucesso",
+    "edit": "Usuário editado com sucesso",
+    "delete": "Usuário inativado com sucesso",
+    "list": "Usuários carregados com sucesso",
+    "resetPassword": "Senha desse usuário restaurada com sucesso"
+  },
+  "errors": {
+    "userExist": "Usuário já existe",
+    "emailInvalid": "E-mail inválido",
+    "passwordInvalid": "Senha com formato inválido",
+    "nameInvalid": "Nome inválido",
+    "existsOnlyOneAdminUser": "Não é permitido desativar o único usuário administrador ativo",
+    "userNameExist": "Esse nome de usuário já existe",
+    "userPhoneExist": "Esse telefone de usuário já existe",
+    "userEmailExist": "Esse e-mail de usuário já existe",
+    "userConfirmPasswordInvalid": "As senhas informadas são diferentes",
+    "userNewPasswordIvalid": "Nova senha não pode ser igual a anterior"
+  },
+  "warning": {
+    "changePassword": "Altere sua senha para acessar o sistema normalmente"
+  },
+  "dropdownHeaderTop": {
+    "profile": "Perfil",
+    "exit": "Sair"
+  },
+  "tooltip": {
+    "enable": "Clique para habilitar este usuário",
+    "disable": "Clique para desabilitar este usuário"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "title": "Devices",
+  "table": {
+    "columns": {
+      "name": "Name",
+      "description": "Description"
+    }
+  },
+  "card": {
+    "register": {
+      "title": "General data",
+      "form": {
+        "fields": {
+          "name": {
+            "label": "Name",
+            "rules": {
+              "required": "Enter a name",
+              "max": "Maximum size allowed is 50 characters",
+              "patternWhiteSpace": "Invalid name",
+              "patternInvalidCharacter": "Your name should contain only letters and numbers."
+            }
+          },
+          "description": {
+            "label": "Description",
+            "rules": {
+              "required": "Enter a description",
+              "max": "Maximum size allowed is 500 characters",
+              "pattern": "Invalid description"
+            }
+          }
+        }
+      }
+    },
+    "mapNavigation": {
+      "title": "Map Navigation",
+      "modal": {
+        "generateTree": {
+          "title": "Screen Creation Wizard"
+        }
+      }
+    }
+  },
+  "success": {
+    "create": "Device created successfully",
+    "edit": "Device actived successfully",
+    "delete": "Device inactived successfully",
+    "list": "Device loaded successfully"
+  },
+  "errors": {
+    "deviceExist": "Device already exists",
+    "nameInvalid": "Invalid device name",
+    "noMap": "No navigation map bound for this device, created or imported",
+    "deviceNameExist": "This device name already exists"
+  },
+  "modal": {
+    "edit": {
+      "title": "Edit Screen",
+      "form": {
+        "fields": {
+          "parentScreen": {
+            "label": "Parent Screen",
+            "rules": {
+              "required": "Select a parent screen"
+            }
+          },
+          "selectedScreen": {
+            "label": "Selected Screen",
+            "rules": {
+              "required": "Enter a screen name",
+              "max": "Maximum size allowed is 100 characters"
+            }
+          },
+          "description": {
+            "label": "Description"
+          }
+        }
+      }
+    },
+    "form": {
+      "fields": {
+        "name": {
+          "label": "Name",
+          "rules": {
+            "required": "Enter a name",
+            "max": "Maximum size allowed is 100 characters",
+            "pattern": "Invalid name"
+          }
+        },
+        "email": {
+          "label": "E-mail",
+          "rules": {
+            "required": "Enter a e-mail",
+            "max": "Maximum size allowed is 50 characters",
+            "pattern": "Invalid e-mail"
+          }
+        },
+        "phone": {
+          "label": "Phone",
+          "rules": {
+            "required": "Enter a phone",
+            "pattern": "Invalid phone"
+          }
+        },
+        "profile": {
+          "label": "Profile"
+        }
+      }
+    },
+    "confirm": {
+      "inactive": "Are you sure you want to inactive the device?",
+      "active": "Are you sure you want to active the device?"
+    }
+  },
+  "data": {
+    "total": "Total registered devices"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "error": {
+    "notLoggedIn": "Incorrect email or password",
+    "userDisabled": "User disabled"
+  }
+}

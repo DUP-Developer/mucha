@@ -1,0 +1,14 @@
+{
+  "title": "Home",
+  "card": {
+    "report": {
+      "title": "Latest reports"
+    },
+    "device": {
+      "title": "Latest devices"
+    },
+    "user": {
+      "title": "Latest users"
+    }
+  }
+}

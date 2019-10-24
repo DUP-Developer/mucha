@@ -1,0 +1,24 @@
+export default {
+  DARK_BLUE: "#2699FB",
+  BLUE: "#7FC4FD",
+  MID_BLUE: "#BCE0FD",
+  LIGHT_BLUE: "#F1F9FF",
+  WHITE: "#FFF",
+  BACKGROUND_SIDEBAR: "#009AF6",
+  REMOVE_BUTTON: "#f5222d",
+  INPUT_ICON: "rgba(0,0,0,.25)",
+  BACKGROUND: "#F1F9FF",
+  YELLOW_ICON_EDIT: "#F0AD4F",
+  DISABLE_ITEM: "#DDD",
+  ENABLE_ITEM: "#228B22",
+
+  // single colors
+  GREEN: "#BBEAA5",
+  GREEN_MEDIUM_DARK: "#99BF88",
+  GREEN_DARK: "#33402D",
+  RED: "#f5222d",
+  YELLOW: "#F0AD4F",
+  GRAY: "#808080",
+  GRAY_LIGHT: "#dadada",
+  ORANGE: "#FF8731",
+};

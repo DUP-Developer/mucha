@@ -1,0 +1,64 @@
+{
+  "table": {
+    "title": {
+      "user": "Usuário",
+      "device": "Device"
+    },
+    "columns": {
+      "device": "Dispositivos",
+      "user": "Usuários",
+      "date": "Data",
+      "consistency": "Consistência",
+      "actions": "Ações",
+      "name": "Nome",
+      "description": "Descrição"
+    }
+  },
+  "success": {
+    "delete": "Relatórios inativado com sucesso",
+    "edit": "Relatórios ativado com sucesso"
+  },
+  "title": {
+    "page": "Relatórios",
+    "summary": "Sumário",
+    "description": "Descrição",
+    "detailing": "Detalhamento",
+    "metrics": "Metricas",
+    "legend": "Legendas",
+    "generalData": "Dados Gerais",
+    "previewImage": "Apresentação de imagem",
+    "comments": "Observações",
+    "noComments": "Sem observações"
+  },
+  "subtitle": {
+    "detailing": {
+      "items": "Itens"
+    }
+  },
+  "modal": {
+    "confirm": {
+      "inactive": "Tem certeza que deseja inativar o relatório?",
+      "active": "Tem certeza que deseja ativar o relatório?"
+    }
+  },
+  "filter": {
+    "labels": {
+      "start": "Data inicial",
+      "end": "Data final"
+    },
+    "subtitles": {
+      "nextMonth": "Próximo mês",
+      "nextYear":"Próximo ano",
+      "nextDecade":"Próxima década",
+      "nextCentury":"Próximo século",
+      "previousMonth":"Mês anterior",
+      "previousYear" :"Ano anterior",
+      "previousDecade":"Década anterior",
+      "previousCentury":"Século anterior",
+      "dateSelect":"Alterar data",
+      "monthSelect":"Alterar mês",
+      "yearSelect":"Alterar ano",
+      "decadeSelect":"Alterar década"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "index": "Início",
+  "login": {
+    "index": "Login"
+  },
+  "users": {
+    "index": "Usuários"
+  },
+  "items": {
+    "index": "Itens de avaliação"
+  },
+  "devices": {
+    "index": "Dispositivos",
+    "register": "Adicionar",
+    "edit": "Editar"
+  },
+  "profile": {
+    "index": "Perfil"
+  },
+  "reports": {
+    "index": "Relatórios",
+    "detail": "Detalhe"
+  }
+}

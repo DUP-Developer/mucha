@@ -1,0 +1,151 @@
+@import '../../../node_modules/antd/dist/antd.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.page404 {
+  text-align: center;
+  margin-top: 15%;
+  font-size: 130px;
+}
+
+.trigger {
+  font-size: 25px;
+  padding: 20px;
+}
+
+.logo-sidebar {
+  width: 150px;
+  align-content: center;
+  margin: 20px 15%;
+}
+
+div.ant-card-body {
+  padding: 0 12px;
+}
+
+/* colors */
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected a{
+  color: #1890ff;
+}
+
+.ant-menu-item > a {
+  color: white
+}
+.ant-menu-item > a:hover {
+  color: #BCE0FD
+}
+.ant-menu-item:hover {
+  color: #BCE0FD
+}
+
+#device-description {
+  width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#device-description:hover {
+  cursor: pointer;
+}
+
+.text-table p{
+  max-width: 500px;
+}
+
+
+.ant-tree li .ant-tree-node-content-wrapper {
+  box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+  height: 28px;
+  min-width: 300px;
+  width: 30%;
+}
+
+.generate-tree .ant-tree li .ant-tree-node-content-wrapper {
+  height: 32px;
+  width: 90%;
+  line-height: 32px;
+  padding-left: 10px;
+  margin-left: 8px;
+}
+
+.generate-tree .ant-tree li span.ant-tree-checkbox {
+  margin-top: 5px;
+}
+
+.edit-item-to-screen .ant-modal-footer {
+  padding-right: 30px;
+}
+
+.generate-tree .ant-modal-footer {
+  padding-right: 45px;
+}
+
+.new-screen .ant-modal-footer {
+  padding-right: 60px;
+}
+
+.ant-popover-title {
+  min-width: 77px;
+}
+
+.demo-infinite-container {
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  overflow: auto;
+  padding: 5px 8px;
+  height: 180px;
+  width: 100%;
+}
+
+.dashboard .ant-table-thead > tr > th {
+  background: #FFF !important;
+}
+
+.dashboard .ant-table-placeholder {
+  border-bottom: none;
+}
+
+#transfer-title {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+#transfer-title span {
+  font-size: 20px;
+  width: 45%;
+}
+
+#transfer-title span:last-child {
+  margin-left: 8%;
+}
+
+
+.ant-btn-primary {
+  background-color: #BBEAA5;
+  border-color: #BBEAA5;
+}
+
+.ant-btn-primary:hover {
+  background-color: #99BF88;
+  border-color: #99BF88;
+}
+
+a {
+  color: #99BF88;
+}

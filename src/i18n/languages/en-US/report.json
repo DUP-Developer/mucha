@@ -1,0 +1,64 @@
+{
+  "table": {
+    "title": {
+      "user": "User",
+      "device": "Device"
+    },
+    "columns": {
+      "device": "Devices",
+      "user": "Users",
+      "date": "Date",
+      "consistency": "Consistency",
+      "actions": "Actions",
+      "name": "Name",
+      "description": "Description"
+    }
+  },
+  "success": {
+    "delete": "Report deactived with success",
+    "edit": "Report actived with success"
+  },
+  "title": {
+    "page": "Reports",
+    "summary": "Summary",
+    "description": "Description",
+    "detailing": "Detailing",
+    "metrics": "Metrics",
+    "legend": "Legend",
+    "generalData": "General data",
+    "previewImage": "Preview image",
+    "comments": "Comments",
+    "noComments": "No comments"
+  },
+  "subtitle": {
+    "detailing": {
+      "items": "Items"
+    }
+  },
+  "modal": {
+    "confirm": {
+       "inactive": "Are you sure you want to inactive the report?",
+       "active": "Are you sure you want to active the report?"
+    }
+  },
+  "filter": {
+    "labels": {
+      "start": "Start date",
+      "end": "End date"
+    },
+    "subtitles": {
+      "nextMonth": "Next month",
+      "nextYear":"Next year",
+      "nextDecade":"Next decade",
+      "nextCentury":"Next century",
+      "previousMonth":"Previous month",
+      "previousYear" :"Previous year",
+      "previousDecade":"Previous decade",
+      "previousCentury":"Previous century",
+      "dateSelect":"Select date",
+      "monthSelect":"Choose a month",
+      "yearSelect":"Choose a year",
+      "decadeSelect":"Choose a decade"
+    }
+  }
+}

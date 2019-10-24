@@ -1,0 +1,108 @@
+{
+  "title": "Users",
+  "labels": {
+    "dataPerson": "Personal data",
+    "alterPassword": "Alter Password"
+  },
+  "table": {
+    "columns": {
+      "name": "Name",
+      "email": "E-mail",
+      "phone": "Phone",
+      "action": "Actions",
+      "userType": "Profiles",
+      "passwordNew": "New Password",
+      "passwordOld": "Old password",
+      "passwordRepeat": "Password repeat"
+    }
+  },
+  "modal": {
+    "title": "User",
+    "form": {
+      "fields": {
+        "name": {
+          "label": "Name",
+          "rules": {
+            "required": "Enter a name",
+            "max": "Maximum size allowed is 50 characters",
+            "min": "The field must contain only letters and the minimum allowed is 3 characters.",
+            "patternWhiteSpace": "Invalid name",
+            "patternInvalidCharacter": "Your name should contain only letters."
+          }
+        },
+        "email": {
+          "label": "E-mail",
+          "rules": {
+            "required": "Enter a e-mail",
+            "min": "Minimum size allowed is 3 characters",
+            "max": "Maximum size allowed is 50 characters",
+            "pattern": "Invalid e-mail"
+          }
+        },
+        "phone": {
+          "label": "Phone",
+          "rules": {
+            "required": "Enter a phone",
+            "pattern": "Invalid phone"
+          }
+        },
+        "profile": {
+          "label": "Profile",
+          "rules": {
+            "required": "Enter a profile"
+          }
+        },
+        "password": {
+          "rules": {
+            "required": "Fill in a new password",
+            "max": "The maximum allowed size is 20 characters",
+            "min": "The minimum allowed size is 7 characters",
+            "noEquals": "Two passwords that you enter is inconsistent!"
+          },
+          "placeholder": "Leave this field empty if you do not want to change your password."
+        }
+      }
+    },
+    "confirm": {
+      "inactive": "Are you sure you want to inactive the user?",
+      "active": "Are you sure you want to active the user?"
+    }
+  },
+  "data": {
+    "profiles": {
+      "admin": "Admin",
+      "engineer": "Engineer"
+    },
+    "total": "Total registered"
+  },
+  "success": {
+    "create": "User created successfully",
+    "edit": "User edited successfully",
+    "delete": "User removed successfully",
+    "list": "User loaded successfully",
+    "resetPassword": "Password of this user successfully restored"
+  },
+  "errors": {
+    "userExist": "User already exists",
+    "emailInvalid": "Invalid email",
+    "passwordInvalid": "Invalid format password",
+    "nameInvalid": "Invalid name",
+    "existsOnlyOneAdminUser": "Disabling only active admin user is not allowed",
+    "userNameExist": "This username already exists",
+    "userPhoneExist": "This user phone already exists",
+    "userEmailExist": "This user email already exists",
+    "userConfirmPasswordInvalid": "The passwords reported are different",
+    "userNewPasswordIvalid": "new password can not be equal to previous"
+  },
+  "warning": {
+    "changePassword": "Change your password to access the system normally"
+  },
+  "dropdownHeaderTop": {
+    "profile": "Profile",
+    "exit": "Logout"
+  },
+  "tooltip": {
+    "enable": "Click to enable this user",
+    "disable": "Click to disable this user"
+  }
+}

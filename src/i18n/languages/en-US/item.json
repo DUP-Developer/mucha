@@ -1,0 +1,77 @@
+{
+  "title": "Evaluation Items",
+  "metric": {
+    "status": {
+      "yes": "Yes",
+      "no": "No",
+      "noApply": "No Apply",
+      "empty": "No avaliable"
+    }
+  },
+  "tab": {
+    "title": "Metrics",
+    "empty": "There are no metrics registered.",
+    "form": {
+      "fields": {
+        "metrics": {
+          "placeholder": "Enter your metric",
+          "rules": {
+            "required": "Enter a metric",
+            "max": "Maximum size allowed is 200 characters"
+          }
+        }
+      }
+    },
+    "messages": {
+      "field_removed": "Field removed."
+    }
+  },
+  "modal": {
+    "title": {
+      "add": "Add Evaluation Item",
+      "edit": "Edit Evaluation Item"
+    },
+    "form": {
+      "fields": {
+        "name": {
+          "label": "Name",
+          "rules": {
+            "required": "Enter a name",
+            "max": "Maximum size allowed is 100 characters",
+            "namePatern": "Item name must contain only letters or numbers"
+          }
+        },
+        "description": {
+          "label": "Description",
+          "rules": {
+            "required": "Enter a description",
+            "max": "Maximum size allowed is 500 characters"
+          }
+        }
+      }
+    },
+    "confirm": {
+      "popConfirm": "Are you sure you want to remove this metric?",
+      "inactive": "Are you sure you want to inactivate this item?",
+      "active": "Are you sure you want to enable this item?"
+    }
+  },
+  "success": {
+    "create": "Item created successfully",
+    "createMetrics": "Your changes have been saved",
+    "edit": "Item edited successfully",
+    "delete": "Item disabled successfully",
+    "list": "Item loaded successfully",
+    "deleteMetric": "Metric removed successfuly.",
+    "enable": "Item enabled successfully"
+  },
+  "error": {
+    "nameRequired": "Item name is required",
+    "nameAlreadyExists": "Item name already exists",
+    "duplicatedMetrics": "Duplicated metrics cannot be add."
+  },
+  "tooltip": {
+    "enable": "Click to enable this evaluation item",
+    "disable": "Click to disable this evaluation item"
+  }
+}

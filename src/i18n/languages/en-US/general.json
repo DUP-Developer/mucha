@@ -1,0 +1,15 @@
+{
+  "title": {
+    "success": "Success!"
+  },
+  "error": {
+    "apiConnection": "Error to server connection"
+  },
+  "empty": {
+    "label": "No data"
+  },
+  "format": {
+    "date": "YYYY-MM-DD",
+    "datetime": "YYYY-MM-DD HH:MM:SS"
+  }
+}

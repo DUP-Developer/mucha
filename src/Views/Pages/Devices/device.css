@@ -1,0 +1,11 @@
+.hover-edit {
+  padding: 7px 8px !important;
+}
+
+.hover-edit:hover {
+  background-color: #F3AE62;
+}
+
+.hover-edit:hover i{
+  color: white!important;
+}

@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-modal-header {
+  background: #2699FB;
+}
+
+.ant-modal-header > .ant-modal-title {
+  font-size: 22px;
+  color: #FFF;
+}
+
+.ant-modal-close-x > .anticon {
+  color: #FFF;
+}
+
+.ant-form-item {
+  margin-bottom: 8px;
+}
+
+.ant-form-vertical .ant-form-item-label, .ant-col-24.ant-form-item-label, .ant-col-xl-24.ant-form-item-label {
+  padding: 0;
+}
+
+.ant-form-item-children > .ant-input, .ant-select > .ant-select-selection--single{
+  min-height: 40px;
+}
+
+.ant-select-selection__rendered {
+  line-height: 40px;
+}
+
+.ant-form-item-label > label {
+  color: #b7b7b7;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.content-page-login {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-content-login {
+  width: 380px;
+  background: #FFF;
+  padding: 20px;
+}
+
+.box-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.box-button-login {
+  margin-top: 20px;
+}
+
+.ant-popover {
+  z-index: 5;
+}
+
+.ant-modal-confirm .ant-modal-close {
+  display: block;
+  top: -10px;
+  right: -6px;
+}
+
+.ant-modal-confirm .ant-modal-close-x > .anticon {
+  color: #303030;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.ant-tabs .ant-tabs-left-bar .ant-tabs-nav-container {
+  height: 500px;
+  width: 250px;
+}
+.node-item-list{
+  display: block;
+  flex: none;
+}
+
+.node-item-list .ant-list-item-meta-description span{
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.node-item-list .ant-list-item-meta-content {
+  width: 100%;
+}
+
+.validation-error-mesage{
+  margin-bottom: 0px;
+}
+
+.ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left {
+  border-right: none;
+}
+
+.ant-menu-vertical .ant-menu-item::after, .ant-menu-vertical-left .ant-menu-item::after, .ant-menu-vertical-right .ant-menu-item::after, .ant-menu-inline .ant-menu-item::after {
+  right: 1px;
+}
+
+.ant-tabs-nav-wrap {
+  overflow-y: scroll
+}
+
+.ant-tabs-tab-prev {
+  display: none
+}
+
+.ant-tabs-tab-next {
+  display: none
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #009AF6;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

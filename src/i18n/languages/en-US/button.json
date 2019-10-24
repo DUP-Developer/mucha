@@ -1,0 +1,22 @@
+{
+  "register": "Add",
+  "search": {
+    "placeholder": "Search ..."
+  },
+  "cancel": "Cancel",
+  "save": "Save",
+  "update": "Update",
+  "yes": "Yes",
+  "no": "No",
+  "import": "Import",
+  "generateNew": "Generate New",
+  "export": "Export",
+  "login": "Login",
+  "tooltip": {
+    "disable":"Inactive",
+    "enable":"Active",
+    "edit": "Edit",
+    "view": "View"
+  },
+  "resetPassword": "Reset password"
+}
